@@ -1,0 +1,62 @@
+<nav id="navbar" class="navbar">
+  <div class="container">
+    <a href="#" class="navbar__brand" target="_blank">Workbook</a>
+    
+    <ul class="navbar__nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="https://github.com/mihailsmirnov2k">Github</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+
+<header class="header">
+  <div class="user">
+      <form class="form">
+          <div class="form__group">
+
+          <div class="form__group">
+              <input type="text" placeholder="Name" class="form__input" />
+          </div>
+            
+          <div class="form__group">
+              <input type="text" placeholder="Surname" class="form__input" />
+          </div>           
+            
+          <div class="form__group">
+              <input type="text" placeholder="Username" class="form__input" />
+          </div>
+
+          <div class="form__group">
+              <input type="email" placeholder="Email" class="form__input" />
+          </div>
+
+          <div class="form__group">
+              <input type="password" placeholder="Password" class="form__input" />
+          </div>
+          <button class="btn" type="button">Register</button>
+      </form>
+       
+        
+  </div>
+</header>
+  
+<br>
+  
+
+        <div>
+          <button type="button" onclick="showPosition();">
+            Show Position
+          </button>
+        </div>
+  <br>
+
+<iframe width="690" height="360" src="https://www.youtube.com/embed/HLe2AudqhVQ" title="Mid Night Club. История Легендарного Клуба." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br>
+  <div>Try to move the purple box into the pink box.</div>
+  <div id="boxA" draggable="true" ondragstart="return dragStart(event)">
+    <p>Drag Me</p>
+  </div>
+  <div id="boxB" ondragenter="return dragEnter(event)" ondrop="return dragDrop(event)" ondragover="return dragOver(event)">Drop into</div>
